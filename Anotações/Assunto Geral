@@ -1,0 +1,27 @@
+// "Introdução à Programação"
+//  principais pontos abordados:
+
+~ Variáveis:
+Declaração e inicialização de variáveis.
+Tipos de dados (int, double, String, etc.).
+Escopo de variáveis.
+Constantes.
+
+~ Operadores:
+Operadores aritméticos, relacionais e lógicos.
+Concatenação de Strings.
+Operadores de atribuição.
+
+~ Entrada do Usuário:
+Uso da classe Scanner para obter entrada do usuário.
+
+~ Estruturas de Controle:
+Condicional (if-else): Tomar decisões com base em condições.
+Loop (for): Execução repetida de um bloco de código.
+Loop (while): Execução repetida enquanto uma condição é verdadeira.
+
+~ Outros Conceitos:
+Conversão de tipos (casting).
+Incremento e decremento.
+Trabalhar com constantes.
+Concatenação de Strings.

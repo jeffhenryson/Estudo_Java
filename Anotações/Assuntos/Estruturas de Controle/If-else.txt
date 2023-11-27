@@ -1,0 +1,55 @@
+A estrutura condicional if-else permite que você execute diferentes blocos de código com base em uma condição booleana.
+Aqui está a estrutura básica:
+
+if (condicao) {
+    // Código a ser executado se a condição for verdadeira
+} else {
+    // Código a ser executado se a condição for falsa
+}
+
+A condicao é uma expressão que retorna um valor booleano (true ou false).
+Se a condicao for true, o bloco de código dentro do if é executado.
+Se a condicao for false, o bloco de código dentro do else é executado.
+Você pode usar apenas o if se não precisar de uma ação alternativa quando a condição for falsa.
+
+A estrutura condicional if-else é essencial para controlar o fluxo do programa com base em diferentes circunstâncias.
+
+Exemplo: 
+-=-
+import java.util.Scanner;
+
+public class ExemploComplexo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        if (idade >= 18) {
+            System.out.println("Você é maior de idade.");
+
+            System.out.print("Digite o número de dependentes: ");
+            int numeroDependentes = scanner.nextInt();
+
+            if (numeroDependentes > 0) {
+                System.out.println("Você tem benefícios adicionais devido aos dependentes.");
+            } else {
+                System.out.println("Você não possui dependentes.");
+            }
+        } else {
+            System.out.println("Você é menor de idade.");
+
+            System.out.print("Digite o número de horas de estudo por dia: ");
+            int horasEstudo = scanner.nextInt();
+
+            if (horasEstudo >= 4) {
+                System.out.println("Continue se dedicando aos estudos!");
+            } else {
+                System.out.println("Talvez seja bom aumentar o tempo de estudo.");
+            }
+        }
+
+        scanner.close();
+    }
+}
+-=-

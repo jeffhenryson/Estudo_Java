@@ -1,0 +1,29 @@
+Uma variável é um local na memória do computador usado para armazenar dados. Ela possui um nome
+(identificador) e um tipo de dado que determina que tipo de valores pode armazenar. As variáveis são 
+fundamentais em programação, pois permitem que você armazene e manipule dados dinamicamente durante a 
+execução de um programa.
+
+int
+double
+char
+boolean
+String
+Arrays
+Objetos
+Ponteiros (em Java, gerenciamento automático de memória)
+null
+Tipos definidos pelo usuário (Classes e Enums)
+
+Exemplos:
+
+1. int idade = 25;
+2. double salario = 3500.50;
+3. char letra = 'A';
+4. boolean estaChovendo = true;
+5. String nome = "João";
+6. int[] numeros = {1, 2, 3};
+7. MinhaClasse objeto = new MinhaClasse();
+8. Não aplicável em Java (gerenciamento automático de memória).
+9. String textoNulo = null;
+10. MinhaClasse minhaVariavel = new MinhaClasse();
+

@@ -1,0 +1,37 @@
+O loop for em Java é uma estrutura de controle de repetição que permite executar um bloco de código várias vezes.
+
+Exemplo:
+
+-=-
+for (inicialização; condição; atualização) {
+    // Código a ser repetido
+}
+-=-
+
+~ Inicialização: É executada apenas uma vez no início do loop. Geralmente, é usada para declarar e inicializar a 
+variável de controle do loop.
+
+~ Condição: É avaliada antes de cada iteração do loop. Se a condição for verdadeira, o código dentro do loop é executado; 
+caso contrário, o loop é encerrado.
+
+~ Atualização: É executada após cada iteração do loop. Geralmente, é usada para modificar a variável de controle do loop.
+
+exemplo 2:
+
+-=-
+public class ExemploForComplexo {
+    public static void main(String[] args) {
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Iteração externa: " + i);
+
+            for (int j = 0; j < 2; j++) {
+                System.out.println("   Iteração interna: " + j);
+            }
+
+            System.out.println("Fim da iteração externa " + i);
+        }
+
+        System.out.println("Fim do programa.");
+    }
+}
+-=-

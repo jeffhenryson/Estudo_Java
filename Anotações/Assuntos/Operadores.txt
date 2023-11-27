@@ -1,0 +1,135 @@
+Operadores em Java são símbolos especiais que realizam operações em variáveis e valores. 
+Essas operações podem ser aritméticas, relacionais, lógicas, de atribuição, bitwise, entre outras. 
+Eles permitem manipular dados de diversas maneiras dentro de um programa Java.
+
+Alguns exemplos de operadores em Java incluem:
+
+Aritméticos:
++, -, *, /, %
+
+int soma = a + b;
+int subtracao = a - b;
+int multiplicacao = a * b;
+int divisao = a / b;
+int resto = a % b;
+
+---------------------------------------------------------------------------------------------------------
+Relacionais:
+==, !=, >, <, >=, <=
+
+boolean igual = a == b;
+boolean diferente = a != b;
+boolean maiorQue = a > b;
+boolean menorQue = a < b;
+boolean maiorOuIgual = a >= b;
+boolean menorOuIgual = a <= b;
+
+---------------------------------------------------------------------------------------------------------
+Lógicos:
+&&, ||, !
+
+boolean and = (a > 0) && (b < 10);
+boolean or = (a < 5) || (b > 15);
+boolean not = !(a == b);
+
+---------------------------------------------------------------------------------------------------------
+Atribuição:
+=, +=, -=, *=, /=
+
+a = b;
+a += 5;
+b -= 3;
+c *= 2;
+d /= 4;
+
+---------------------------------------------------------------------------------------------------------
+Incremento/Decremento:
+++, --
+
+a++;
+b--;
+
+---------------------------------------------------------------------------------------------------------
+Operador Ternário:
+? :
+
+int maior = (a > b) ? a : b;
+
+---------------------------------------------------------------------------------------------------------
+Bitwise
+&, |, ^, ~, <<, >>, >>>
+
+int resultadoAnd = a & b;
+int resultadoOr = a | b;
+int resultadoXor = a ^ b;
+int resultadoComplemento = ~a;
+int deslocamentoEsquerda = a << 2;
+int deslocamentoDireita = a >> 1;
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+
+Concatenação de Strings
+
+A concatenação de strings pode ser feita de várias maneiras. Aqui estão algumas delas:
+
++:
+
+String nome = "João";
+String sobrenome = "Silva";
+String nomeCompleto = nome + " " + sobrenome;
+
+---------------------------------------------------------------------------------------------------------
+
+Método concat():
+
+String nome = "João";
+String sobrenome = "Silva";
+String nomeCompleto = nome.concat(" ").concat(sobrenome);
+
+---------------------------------------------------------------------------------------------------------
+
+Método StringBuilder (mais eficiente para concatenação em loops):
+
+StringBuilder builder = new StringBuilder();
+builder.append("João");
+builder.append(" ");
+builder.append("Silva");
+String nomeCompleto = builder.toString();
+
+---------------------------------------------------------------------------------------------------------
+
+Usando += com Strings:
+
+String nome = "João";
+String sobrenome = "Silva";
+String nomeCompleto = "";
+nomeCompleto += nome;
+nomeCompleto += " ";
+nomeCompleto += sobrenome;
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
+Operadores De Atribuição
+
+Os operadores de atribuição em Java são usados para atribuir valores a variáveis. 
+Aqui estão os principais operadores de atribuição:
+
+int a = 5;
+int b = 8;
+int c = 3;
+int d = 10;
+int e = 7;
+
+a += 5; // a = a + 5;
+b -= 3; // b = b - 3;
+c *= 2; // c = c * 2;
+d /= 4; // d = d / 4;
+e %= 3; // e = e % 3;
+
+
+
+
+
+
+
